@@ -1,0 +1,552 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	padding: 0;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
+	
+}
+
+#header {
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+	background-image: url(images/navBack.png);
+	text-align: center;
+	position: fixed;
+	z-index: 10;
+
+}
+
+
+#wrapperHome {
+	margin: 0 auto;
+	padding: 0px;
+	width: 960px;
+	text-align: center;
+	background-color: #203D59;
+	position: relative;
+	z-index: 9;
+
+
+}
+
+#wrapperToolbox {
+	margin: 0 auto;
+	padding: 0px;
+	width: 960px;
+	text-align: center;
+	background-color: #802E2E;
+	position: relative;
+	z-index: 9;
+
+}
+
+#wrapperExperience {
+	margin: 0 auto;
+	padding: 0px;
+	width: 960px;
+	text-align: center;
+	background-color: #6D4001;
+	position: relative;
+	z-index: 9;
+}
+
+#wrapperPortfolio {
+	margin: 0 auto;
+	padding: 0px;
+	width: 960px;
+	text-align: center;
+	position: relative;
+	z-index: 9;
+}
+
+.logo {
+	float: left;
+}
+
+.logo a {
+	border: none; 
+	}
+
+#navContainer {
+	margin: 0px;
+	width: 560px;
+	height: 30px;
+	float: left;
+}
+
+
+#nav a{
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	text-align: left;
+	color: #999;
+}
+
+#nav li{
+	margin-right: 30px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 200%;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	float: left;
+}
+
+#nav a:hover, body#home #tHome a, body#portfolio #tPortfolio a, body#toolbox #tToolbox a, body#experience #tExperience a{
+	color: #333;
+	font-size: 115%;
+	line-height: 120%;
+}
+
+#nav a:hover, body#illustration #tPortfolio a, body#printPortfolio #tPortfolio a,  body#motionGraphics #tPortfolio a, body#webPortfolio #tPortfolio a{
+		color: #333;
+	font-size: 115%;
+		line-height: 120%;
+
+}
+
+#navPortfolioContainer {
+	margin-top: 0px;
+	margin-left: 70px;
+	width: 960px;
+	height: 30px;
+	position: absolute;
+}
+
+
+#navPortfolio a{
+	margin: 0px;
+	float: left;
+	text-decoration: none;
+	text-align: left;
+	color: #DBCDDA;
+}
+
+#navPortfolio li{
+	margin-right: 40px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 200%;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	float: left;
+}
+
+#navPortfolio a:hover, body#portfolio #tAllPortfolio a, body#printPortfolio #tPrintPortfolio a, body#webPortfolio #tWebPortfolio a, body#motionGraphics #tMotionGraphics a, body#illustration #tIllustration a {
+	color: #FFF;
+}
+
+
+#topHomeContent {
+	margin: 0px;	
+	padding-top: 100px;
+	width: 960px;
+	height: 570px;
+	background-image: url(images/homeTopBack.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9;
+}
+
+#topToolboxContent {
+	margin: 0px;	
+	padding-top: 100px;
+	width: 960px;
+	height: 570px;
+	background-image: url(images/toolboxTopBack.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9;
+}
+
+#topExperienceContent {
+	margin: 0px;	
+	padding-top: 100px;
+	width: 960px;
+	height: 570px;
+	background-image: url(images/experienceTopBack.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9;
+}
+
+#topPortfolioContent {
+	margin: 0px;	
+	padding-top: 100px;
+	width: 960px;
+	height: 570px;
+	background-image: url(images/portfolioTopBack.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 9;
+}
+
+#bottomContent {
+	margin: 0px;
+	padding: 0px;	
+	position: relative;
+	z-index: 9;
+
+}
+
+#innerContent {
+	margin-top: -117px;
+	padding-left: 40px;
+	padding-top: 15px;
+	width: 625px;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
+	float: right;
+}
+
+#portfolioContent {
+	margin-top: -70px;
+	text-align: center;
+}
+
+#sidebar {
+	margin-top: -120px;
+	padding: 20px;
+	width: 250px;
+	height: 100%;
+	float: left;
+
+	
+}
+
+#sidebarDivision {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+#experienceLinks {
+	margin-top: 50px;
+	color: #4D2D02;
+}
+
+#footer {
+	margin-top: -10px;
+	padding-top: 20px;
+	clear: both;
+	background-image: url(images/background.jpg);
+}
+
+#contactFooter {
+	height: 90px;
+	background-color: #3D155E;
+	text-align: right;
+}
+
+#icons {
+	margin-top: 10px;
+	margin-right: 200px;
+	margin-left: 40px;
+	float: right;
+}
+
+h1 {
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: left;
+	font-size: 350%;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 250%;
+	font-weight: normal;
+	text-align: left;
+}
+
+h3 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 180%;
+	font-weight: normal;
+	text-align: left;
+	line-height: 100%;
+}
+
+h4 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 180%;
+	font-weight: normal;
+	text-align: center;
+	line-height: 120%;
+
+}
+
+p {
+	font-family: 'Lora', serif;
+	font-size: 140%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 180%;
+}
+
+p2 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 140%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 180%;
+}
+
+p3 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 80%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 180%;
+}
+
+
+.home {
+	font-family: 'Lora', serif;
+	font-size: 180%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 180%;
+}
+
+.toolbox {
+	font-family: 'Lora', serif;
+	font-size: 140%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 180%;
+}
+
+.experience {
+	font-family: 'Lora', serif;
+	font-size: 120%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 150%;
+}
+
+
+.portfolio {
+	font-family: 'Lora', serif;
+	font-size: 180%;
+	font-weight: 400;
+	text-align: left;
+	line-height: 180%;
+}
+
+.thumbBucket {
+	float: left;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 45px;
+	margin-right: 45px;
+
+}
+
+.headerHome {
+	margin-left: 250px;
+	padding-top: 20px;
+	color: #203D59;	
+}
+
+.headerToolbox {
+	margin-left:  250px;
+	padding-top: 20px;
+	color: #622323;
+}
+
+.headerExperience {
+	margin-left: 450px;
+	padding-top: 20px;
+	color: #4D2D02;
+}
+
+
+.headerPortfolio {
+	margin-left: 450px;
+	padding-top: 20px;
+	color: #3F1760;
+}
+
+.subHeader {
+	margin-top: -20px;
+	margin-left: 320px;
+	width: 600px;
+	font-family: 'Lora', serif;
+	font-size: 180%;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 180%;
+}
+
+.subHeaderExperience {
+	margin-top: -20px;
+	margin-left: 500px;
+	width: 600px;
+	font-family: 'Lora', serif;
+	font-size: 180%;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 180%;
+}
+
+.headerSubText {
+	margin-top: -20px;
+	margin-left: 450px;
+	width: 400px;
+	font-family: 'Lora', serif;
+	font-size: 140%;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 180%;
+}
+
+.headerExperienceSubText {
+	margin-top: -20px;
+	margin-left: 525px;
+	width: 400px;
+	font-family: 'Lora', serif;
+	font-size: 140%;
+	font-style: italic;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 180%;
+}
+
+.quote {
+	font-family: 'Lora', serif;
+	font-size: 140%;
+	font-style: italic;
+	font-weight: 400;
+	color: #FFF;
+	text-align: left;
+	line-height: 180%;
+}
+
+.quoteName {
+	font-family: 'Lora', serif;
+	font-size: 100%;
+	font-style: italic;
+	font-weight: 400;
+	color: #FFF;
+	text-align: left;
+	line-height: 150%;
+}
+
+#beginQuote {
+	text-align: left;
+}
+#endQuote {
+	text-align: right;
+}
+
+.contact {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 280%;
+	color: #FFF;
+	font-weight: normal;
+	text-align: center;
+}
+
+.footer {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 100%;
+	font-weight: 400;
+	color: #000;
+	text-align: center;
+	line-height: 150%;
+}
+
+.contactFooter {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 280%;
+	color: #FFF;
+	font-weight: normal;
+	text-align: right;
+}
+
+.finePrint {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 80%;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	line-height: 40%;
+
+}
+
+.artworkBucket {
+	text-align: left;
+	float: left;
+}
+
+.art {
+	width: 500px;
+	text-align: center;
+	float: left;
+}
+
+.artWide {
+	width: 900px;
+	text-align: center;
+	float: left;
+	background-color: #FFF;
+}
+
+.description {
+	width: 400px;
+	margin-right: 50px;
+	text-align: right;
+	float: left;
+}
+
+.descriptionWide {
+	width: 900px;
+	margin-right: 0px;
+	text-align: right;
+	float: left;
+}
+
+.frame {
+	border: 15px solid #fff;
+	margin: 10px;
+}
+
+.note {
+	font-style: italic;
+	font-size: 110%;
+
+}
+
+a:link {
+	color: #609;
+	text-decoration: none;
+}
+a:hover {
+	color: #D4A4E1;
+	text-decoration: none;
+}
+a:visited {
+	color: #D4A4E1;
+}
+
+#experienceLinks a {
+	color: #4D2D02;
+	text-decoration: none;
+}
+#experienceLinks a:hover {
+	color: #960;
+}
+
+a img { border: none; }

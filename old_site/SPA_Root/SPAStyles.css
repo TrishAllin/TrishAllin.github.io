@@ -1,0 +1,440 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	text-align: center;
+	min-width: 960px;
+	background-image: url(assets/images/background.jpg);
+	background-repeat: repeat-x;	
+}
+
+#container {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1400px;
+	width: 960px;
+	text-align: left;
+
+}
+
+#header {
+	height: 148px;
+	width: 960px;
+	background-image: url(assets/images/headerback.jpg);
+	margin: 0px;
+	}
+
+#contenttop {
+	height: 570px;
+	width: 960px;
+	margin: 0px;
+}
+
+#contenttoplarge {
+	height: 1240px;
+	width: 960px;
+	margin: 0px;
+}
+
+#contentbottom {
+	background-image: url(assets/images/contentbottomback.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	width: 960px;
+	height: 370px;
+	background-color: #FFF;
+}
+
+#indexcontent {
+	background-image: url(assets/images/indexcontentback.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 690px;
+	width: 960px;
+}
+
+#generalcontent {
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	background-image: url(assets/images/generalcontentback.png);
+	background-repeat: no-repeat;
+	height: 570px;
+	width: 900px;
+}
+#generalcontentlarge {
+	margin-top: 0px;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	background-image: url(assets/images/generalcontentbacklarge.png);
+	background-repeat: no-repeat;
+	height: 1240px;
+	width: 900px;
+}
+#indextext {
+	margin-top: 120px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	
+}
+#contenttext {
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+
+#navigation {
+	height: 30px;
+	width: 960px;
+	background-color: #000;
+}
+
+
+#bucketleft {
+	height: 300px;
+	width: 300px;
+	background-image: url(assets/images/bucketback.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#bucketright {
+	height: 300px;
+	width: 300px;
+	background-image: url(assets/images/bucketback.png);
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#sidebar {
+	background-image: url(assets/images/sidebar.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+	float: left;
+	height:620px;
+	width: 300px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -50px;
+}
+
+#sidebartext {
+	padding-right: 40px;
+	padding-left: 25px;
+}
+
+#tabledata {
+	float:left;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+#contact {
+	width: 670px;
+	margin-top: -10px;
+	margin-right: 10px;
+	float: right;
+}
+
+#staffbucketleft {
+	width: 405px;
+	height: 175px;
+	float: left;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#staffbucketright {
+	width: 405px;
+	height: 175px;
+	float: right;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#feature {
+	width: 200px;
+	height: 500px;
+	float: right;
+	background-color: #E3E3E3;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-top:10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+#rightphotobox {
+	margin-right: 0px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float:right;
+	width: 300px;
+}
+
+#leftphotobox {
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	width: 400px;
+}
+
+#twitterbucket {
+	float: left;
+	width: 450px;
+	height: 52px
+}
+
+#facebookbucket {
+	float: right;
+	width: 450px;
+	height: 52px
+}
+#footer {
+	margin: 0px;
+	background-color: #FFF;
+	width: 960px;
+	height: 250px;
+}
+
+h1 {
+	font-family: "Arial Black";
+	font-size: 28px;
+	color: #363;
+	text-align: center;
+	line-height: 24px;
+}
+h2 {
+	font-family: "Arial Black";
+	font-size: 22px;
+	color: #039;
+}
+h3 {
+	font-family: "Arial Black";
+	font-size: 18px;
+	color: #666;
+}
+
+
+h4 {
+	font-family: "Arial Black";
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: top;
+}
+h5 {
+	font-family: "Arial Black";
+	font-size: 16px;
+	color: #039;
+}
+p1 {
+	font-family: Arial;
+	font-size: 18px;
+	color: #666;
+	line-height: 24px;
+}
+p2 {
+	font-family: "Arial";
+	font-size: 16px;
+	color: #666;
+
+}
+p3 {
+	font-family: Arial;
+	font-size: 16px;
+	color: #039;
+	line-height: 24px;
+}
+
+p4 {
+	font-family: "Arial";
+	font-size: 14px;
+	color: #666;
+	}
+
+.rightcaption {
+	text-align: right;
+	font-size: 12px;
+	line-height: -2px;
+	vertical-align: top;
+}
+.leftcaption {
+	text-align: right;
+	font-size: 12px;
+	line-height: -2px;
+	vertical-align: top;
+}
+.whitetext {
+	color: #FFF;
+}
+.logolargecenter {
+	margin-top: 100px;
+	margin-left: 175px;
+}
+.floatleft {
+	float: left;
+	margin-right: 20px;
+}
+
+.floatright {
+	float: right;
+	margin-left: 20px;
+}
+
+.footer {
+	text-align: left;
+	font-size: 24px;
+	line-height: 28px;
+	color: #036;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottomcontentpic {
+	float: left;
+	margin-right: 20px;
+	margin-top: -60px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.bucketpics {
+	margin-top: -10px;
+}
+.skipackagetable {
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	border: thick solid #003;
+	font-weight: normal;
+	border-collapse: collapse;
+}
+.famactivitytable {
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	border: thick solid #600;
+	font-weight: normal;
+	border-collapse: collapse;
+}
+.jeeppackagetable {
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	border: thick solid #030;
+	font-weight: normal;
+	border-collapse: collapse;
+}
+.skipackagetable tr td {
+	text-align: center;
+	border: 1px solid #CCC;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.famactivitytable tr td {
+	text-align: center;
+	border: 1px solid #CCC;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.jeeppackagetable tr td {
+	text-align: center;
+	border: 1px solid #CCC;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+.skioddrow {
+	background-color: #648bb0;
+}
+.famoddrow {
+	background-color: #a76666;
+}
+.jeepoddrow {
+	background-color: #748969;
+}
+.skievenrow {
+	background-color: #254e75;
+}
+.famevenrow {
+	background-color: #7c2b2b;
+}
+.jeepevenrow {
+	background-color: #3e4e2c;
+}
+.skipackagetable tr th {
+	background-image: url(assets/images/skitableheader.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #003;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+}
+.famactivitytable tr th {
+	background-image: url(assets/images/familytableheader.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #660000;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+}
+.jeeppackagetable tr th {
+	background-image: url(assets/images/jeeptableheader.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #033;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: #363;
+}
+a:visited {
+	color: #003300;
+}

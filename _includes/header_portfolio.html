@@ -1,0 +1,20 @@
+<script>
+function navigationAnimation() {
+  document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+  document.getElementsByClassName("navigation-icon")[0].classList.toggle("active");
+}
+</script>
+
+<header>
+  <div class="header-content">
+    <button class="navigation-icon" onclick="navigationAnimation()">Menu</button>
+    <ul class="navigation">
+      <li><a href="/resume">resume</a></li>
+      <li><a href="/index#web-portfolio">web</a></li>
+      <li><a href="/index#print-portfolio">print</a></li>
+      <li><a href="/index#motion-portfolio">motion</a></li>
+      <li><a href="/index#illustration-portfolio">illustration</a></li>
+    </ul>
+    <a href="/index" class="header-logo"><img src="../images/svg/name_plate.svg" alt="Trisha Allin - All In Design" /></a>
+  </div>
+</header>

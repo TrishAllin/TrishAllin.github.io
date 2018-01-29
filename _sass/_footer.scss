@@ -1,0 +1,33 @@
+footer {
+	@extend %clear-both;
+	@extend %full-width;
+	@extend %display-block;
+	@extend %minimum-width;
+	border-top: 5px solid $lilac;
+	background-color: $white;
+	min-height: 80px;
+	.footer-content {
+		@extend %maximum-width;
+		@extend %centered-content;
+		@extend %display-block;
+		padding: 0.5rem;
+		height: 30px;
+
+		.contact-links {
+			@extend %float-right;
+			
+			li {
+				@extend %display-inline-block;
+				margin-left: 0.5rem;
+				vertical-align: middle;
+				h3 {
+					color: $amethyst;
+				}
+				img {
+					width: 30px;
+					height: 30px;
+				}
+			}
+		}
+	}
+}

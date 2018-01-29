@@ -1,0 +1,23 @@
+#
+# 'jekyll serve'. If you change this file, please restart the server process.
+# Build settings
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# Site settings
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+
+# Site settings
+title: Trisha Allin - Professional Web and Graphic Design Designer | All•in•Design
+email: trishallindesign@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Trisha Allin - Professional, creative, experienced front-end developer and graphic designer based in Longmont, Colorado. Specializing in UI/UX front-end web development and design, print and digital advertising and marketing, branding, graphics and illustration.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://trishallindesign.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-bootstrap-sass
+bootstrap:
+  assets: true

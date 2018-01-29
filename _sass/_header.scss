@@ -1,0 +1,156 @@
+header {
+	@extend %full-width;
+	@extend %display-block;
+	@extend %minimum-width;
+	height: 70px;
+	box-shadow: 0px 2px 18px 0px $platinum;
+	background-color: $white;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+
+	.header-content {
+		@extend %maximum-width;
+		@extend %centered-content;
+		@extend %full-height;
+		padding: 0 2rem;
+	}
+}
+
+.navigation {
+	@extend %naked-list;
+	@extend %display-inline-block;
+	@extend %full-height;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	li {
+		@extend %float-left;
+		@extend %full-height;
+		@extend %position-relative;
+		display: flex;
+		align-items: flex-end;
+		padding: 2.6rem 1rem 0.5rem 1rem;
+		&:first-child {
+			padding-left: 1rem;
+		}
+		&:hover {
+			background-color: $lilac;
+			&:after {
+				@extend %display-block;
+    			@extend %position-absolute;
+				@extend %full-width;
+				border-bottom: 5px solid $amethyst;
+    			content: '';
+    			bottom: -5px;
+    			left: 0;
+			}
+		}
+
+		a {
+			font-size: 1.25em;
+		}
+	}
+}
+
+.navigation-icon {
+	display: none;
+	height: 42px;
+	width: 50px;
+	font-size: 2rem;
+	background-image: url('../images/png/nav_icon_amethyst.png');
+	background-image: url('../images/svg/nav_icon_amethyst.svg');
+	background-repeat: no-repeat;
+	background-position: center 0.75rem;
+	background-size: 55%;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+
+	&:hover {
+		background-image: url('../images/png/nav_icon_lilac.png');
+		background-image: url('../images/svg/nav_icon_lilac.svg');
+	}
+}
+
+.header-logo {
+	@extend %display-block;
+	@extend %float-right;
+	max-width: 250px;
+	margin: 1.75rem 0.5rem 0 0.5rem;
+}
+
+@include breakpoint($tablet-max) {
+
+	header { 
+		height: 46px;
+	}
+
+	.header-logo {
+		height: 36px;
+		margin-top: 0.5rem;
+	}
+
+	.navigation {
+		font-size: 1em;
+		li {
+			padding-top: 1.1rem;
+		}
+	}
+}
+
+@include breakpoint($tablet-max) {
+	.navigation {
+		font-size: 1.25rem;
+	}
+}
+
+@include breakpoint(650px) {
+	.header-content {
+		padding: 0 !important;
+				position: relative;
+	}
+	.navigation {
+		display: none;
+	}
+	.navigation.responsive {
+		font-size: 1.25em;
+		display: block;
+		position: absolute;
+		top: 42px;
+		background-color: $amethyst;
+		width: 100%;
+		li {
+			background-color: $amethyst;
+			padding: 3rem 1rem;
+			border-bottom: 2px solid $lilac;
+			float: none !important;
+			align-items: center;
+			&:hover {
+				background-color: $amethyst !important;
+				&:after {
+					display: none;
+				}
+			}
+			a {
+				font-weight: 400;
+				color: $lilac !important;
+				display: block !important;
+				width: 100% !important;
+				&:hover {
+					color: $white !important;
+				}
+			}
+		}
+	}
+	.navigation-icon {
+		display: inline-block;
+	}
+
+	.navigation-icon.active {
+		background-color: $amethyst;
+		background-image: url('../images/png/nav_icon_amethyst.png');
+		background-image: url('../images/svg/nav_icon.svg');
+		background-size: 55%;
+	}
+
+}

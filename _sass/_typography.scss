@@ -1,0 +1,117 @@
+%text-left { text-align: left; }
+%text-right { text-align: right; }
+%text-center { text-align: center; }
+
+h1 {
+	font-family: $fontface-lato-regular !important;
+	font-weight: 400;
+	font-size: 2.5em;
+	text-align: left;
+	color: $amethyst !important;
+
+	@include breakpoint($tablet-max) {
+		font-size: 2em;
+		line-height: 1em;
+	}
+}
+
+h2 {
+	font-family: $fontface-lato-regular !important;
+	font-weight: 300;
+	font-size: 1.5em;
+	text-align: left;
+	color: $gunmetal;
+
+	@include breakpoint($tablet-max) {
+		font-size: 1.25em;
+	}
+}
+
+h3 {
+	font-family: $fontface-lato-regular !important;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: left;
+	color: $gunmetal;
+}
+h4 {
+	font-family: $fontface-lato-regular !important;
+	font-weight: 300;
+	font-size: 1.25em;
+	text-align: left;
+	color: $amethyst;
+}
+h1.handwriting {
+	font-family: $fontface-hand !important;
+	color: $amethyst;
+	text-align: left;
+	font-size: 3rem;
+
+	@include breakpoint($tablet-max) {
+		font-size: 2em;
+	}
+}
+
+p, ul, li {
+	font-family: $fontface-lato-regular !important;
+	font-weight: 300;
+	font-size: 1.25em;
+	text-align: left;
+	line-height: 1.5em;
+	color: $gunmetal;
+}
+
+a,
+a:hover {
+	text-decoration: none !important;
+	color: $amethyst !important;
+}
+
+small {
+	font-family: $fontface-lato-regular !important;
+	font-weight: 300;
+	font-size: 0.8em;
+	text-align: left;
+	color: $gunmetal;
+}
+
+.number-link {
+	text-decoration: underline;
+	padding: 0 0.75rem;
+}
+
+.reference-quote {
+	font-size: 2.25rem;
+	margin: 0 !important;
+	padding: 3rem 4rem;
+	background-color: $ghost;
+	p {
+		font-family: $fontface-hand !important;
+		color: $silver;
+	}
+	@include breakpoint($tablet-max) {
+		font-size: 1.5em;
+	}
+}
+/**
+ * Naked List - sets list-style to none on <ul> or <ol> elements
+ */
+@mixin naked-list() {
+	list-style: none;
+
+	& > li {
+		margin-left: 0;
+	}
+}
+	%naked-list {
+		@include naked-list;
+	}
+
+	.container {
+	@extend %maximum-width;
+	@extend %text-left;
+}
+
+ul {
+	@extend %naked-list;
+}

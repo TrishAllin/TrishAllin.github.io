@@ -1,0 +1,36 @@
+<script>
+function navigationAnimation() {
+	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+	document.getElementsByClassName("navigation-icon")[0].classList.toggle("active");
+}
+	
+window.onclick = function(event) {
+  if (!event.target.matches('.navigation-icon')) {
+     var openDropdown = document.getElementsByClassName("navigation")[0];
+     var activeIcon = document.getElementsByClassName("navigation-icon")[0];
+
+     if (openDropdown.classList.contains('responsive')) {
+       openDropdown.classList.remove('responsive');
+     }
+
+     if (activeIcon.classList.contains('active')) {
+       activeIcon.classList.remove('active');
+     }
+
+  }
+}
+</script>
+
+<header>
+  <div class="header-content">
+    <button class="navigation-icon" onclick="navigationAnimation()">Menu</button>
+    <ul class="navigation" id="navigation">
+      <li><a href="/resume">resume</a></li>
+      <li><a href="#web-portfolio">web</a></li>
+      <li><a href="#print-portfolio">print</a></li>
+      <li><a href="#motion-portfolio">motion</a></li>
+      <li><a href="#illustration-portfolio">illustration</a></li>
+    </ul>
+    <a href="/index" class="header-logo"><img src="images/svg/name_plate.svg" alt="Trisha Allin - All In Design" /></a>
+  </div>
+</header>

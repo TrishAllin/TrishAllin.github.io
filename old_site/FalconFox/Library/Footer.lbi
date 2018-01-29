@@ -1,0 +1,16 @@
+<div id="footer"><div id="socialMedia">
+</div><!--End div socialMedia-->
+
+<div id="footerLogo">
+
+<div id="socialMedia"> 
+  <a href="https://www.facebook.com/pages/Falconfox-Network-Security/121332248060354" target="_blank"><img src="images/facebook.jpg" width="43" height="43" alt="Facebook Link" /> </a>
+ <a href="http://www.twitter.com/FalconFoxLLC" target="_blank"><img src="images/twitter.jpg" width="43" height="43" alt="Twitter Link" /></a> </div><!--End div socialMedia-->
+
+</div><!--End div footerLogo-->
+
+<div id="footerText">
+  <p>FalconFox, LLC &#8226;  <a href="mailto:info@falconfox.com">info@falconfox.com</a> &#8226; 1-800-555-5555  &#8226; Orlando,  Florida 
+</p>
+</div><!--End div footerText-->
+</div><!--End div footer-->
